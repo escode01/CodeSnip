@@ -1,0 +1,47 @@
+.snippet-form {
+    margin-bottom: 40px;
+  }
+  
+  .snippet-form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: none;
+    color: #C4C4C4;
+    font-size: 18px;
+    background-color: transparent;
+    outline: none;
+    resize: vertical;
+  }
+  
+  .snippet-form .button-container {
+    display: flex;
+    margin-right: 5px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .snippet-form .submit-btn,
+  .snippet-form .share-link {
+    margin-left: 10px;
+    margin-right: 4px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color:  rgba( 111, 61, 244, 0.8 );
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: var(--text-color);
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  
+  .snippet-form .submit-btn:hover,
+  .snippet-form .share-link:hover {
+    background-color: rgba(255,255,255,0.2);
+  }
+  

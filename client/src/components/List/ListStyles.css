@@ -1,0 +1,61 @@
+.snippet-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  .snippet-card {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    background: rgba( 0, 0, 0, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 15px;
+    transition: box-shadow 1s ease;
+  }
+  
+  .snippet-card:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    transform: translateY(-2px);
+  }
+  .snippet-list::after {
+    content: '';
+    grid-column: 1 / -1;
+    height: 0;
+  }
+  .snippet-card h4 {
+    color: var(--text-color);
+    font-size: 18px;
+  margin-bottom: 10px;
+  }
+  
+  .snippet-card pre {
+    color: var(--secondary-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+  }
+  
+  .snippet-card button {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .snippet-card button:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+  
+  @media (max-width: 767px) {
+    .snippet-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  
