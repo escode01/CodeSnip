@@ -1,6 +1,6 @@
 # CodeSnip - Snippet Manager
 
-CodeSnip is a web application that allows you to manage and share code snippets. It provides a user-friendly interface for creating, editing, and deleting code snippets. You can also share your snippets with others by generating a unique URL.
+CodeSnip is a web application that allows you to manage and share code snippets. It provides a user-friendly interface for creating, editing, and deleting code snippets. You can also share your snippets with others by generating a unique URL. Hello
 
 ## Features
 
